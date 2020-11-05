@@ -1,12 +1,10 @@
-
+import Login from './views/Login'
 function App() {
   return (
-    <div className="App">
+    <div className="App" >
       <header className="App-header">
-        <p>
-            Hello World
-        </p>
 
+        <Login/>
       </header>
     </div>
   );
